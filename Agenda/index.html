@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="javascript.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="opcoes">
+        <button onclick="Cadastrar();">Cadastrar</button>
+        <button onclick="Buscar();">Buscar</button>
+        <button onclick="Removera();">Remover</button>
+        <input type="button" value="Listar" onclick="print();">
+        
+    </div>
+
+    <div id ="display">
+
+    
+    
+
+    </div>
+    <div class="info" id="Inf">
+        <p>Cadastrar ID:<input type="text" id="CadastrarID" placeholder="ID"></p>
+        <p>Cadastrar Nome:<input type="text" id="CadastrarNome" placeholder = "Nome"></p>
+        <p>Cadastrar Telefone:<input type="text" id="CadastrarTelefone" placeholder="Telefone"></p>
+        <button onclick="Salvar()">Salvar</button>
+        <p>Remover:<input type="text" id="Remove" placeholder ="Remover"></p>
+        <button onclick ="Remover();">Ok</button>
+        <p>Buscar:  <input type="text" id="Buscar" placeholder="Busca"></p>
+        <button onclick="Procura();">Ok</button>
+    </div>
+
+
+
+</body>
+</html>
